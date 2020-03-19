@@ -24,24 +24,43 @@
 </head>
 
 <body>
-  <div id="wrapper">
-    
-    <header id="header">
-      <h1 class="logo">
-        <span class="logo-title">Sasuga's portfolio</span>
-        <span class="logo-desc">Web Engineer</span>
-      </h1>
-    </header>
-    <nav id="gnav">
-      <ul>
-        <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
-        <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
-        <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
-        <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
-      </ul>
-    </nav>
-    <main id="contents">
+  
 
+
+
+
+  <div id="global-container">
+    <div id="container">
+      
+      <div class="mobile-menu__cover"></div>
+      <div id="wrapper">
+        <header id="header">
+          <h1 class="logo">
+            <span class="logo-title">Sasuga's portfolio</span>
+          </h1>
+        </header>
+      </div>
+      <div class="nav-trigger"></div>
+      <header class="header">
+        <div class="header__inner appear up">
+          <div class="logo item">
+          </div>
+
+
+          <nav class="header__nav">
+
+          </nav>
+          <button class="mobile-menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+      <div id="content">
+        <div id="main-content">
+
+    <main id="contents">
       <section class="section" id="Profile">
         <div class="inner">
           <div class="section-title-block">
@@ -54,10 +73,13 @@
             </div>
             <div class="two-column-desc">
               <p class="text">
-                (<a href="https://twitter.com/naoto_7713?lang=ja">@naoto_7713</a>)と申します。社会人歴（IT業界）4年目です。<br>
-                　新卒では中小企業のSIerに入社しました。常駐先ではウォータフォール型でデスクトップアプリ開発に携わりました。1年目は開発、2年目は問い合わせ対応と業務効率化のツールを作成です。
-                ただ、自分で勉強していくうちにもっと開発をしたい！！Webに携わりたい！！と思い転職を決意。<br>
-                　web系の自社開発に入社し、現在はフルスタックエンジニアとして働いております。直近でフロントはSPAで実装して、バックエンドはAPI開発です。（2018年8月12日更新）
+                ご訪問ありがとうございます！ 山口 流石（やまぐち さすが）と申します。<br><br>
+                【経歴】<br>
+                ・大分大学経済学部地域システム学科卒業<br>
+                ・株式会社コンベンションリンケージに入社し、J:comホルトホール大分にて指定管理者として従事。2019年12月に退社<br>
+                ・プログラミングスクールTECH::CAMPへ（2020年3月卒業）<br>
+                ・エンジニアを目指して学習・就活中<br>
+                ・前職でのフライヤー作成や、マークダウンでのホームページ更新業務の経験を活かし、クライアントや設計者との対話を大切にしながら、その思いを形にしてユーザーに届けることができるエンジニアを目指しています。
               </p>
             </div>
           </div>
@@ -348,22 +370,98 @@
           <div class="section-title-block">
             <h2 class="section-title"><i class="fas fa-envelope fa-lg"><span class="section-title-css">CONTACT</span></i></h2>
             <p class="section-desc">
-              何かありましたらtwitterのDMからどしどしご連絡をください。
+              お問い合わせはtwitterにてお願いいたします。
             </p>
           </div>
-          <div class="contact-wrapper">
-            <div class="contact-list" style="text-align: center;">
-                <a href="https://twitter.com/naoto_7713" target="_blank"><img src="img/contact/icon_contact.jpg" alt="" class="contact-img"  style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
-              <!-- <ul>
-                <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">フォーム</span></a></li>
-                <li><a href="https://twitter.com/naoto_7713" target="_blank"><img src="img/contact/icon_contact.jpg" alt=""><span class="contact-list-desc">Twitter</span></a></li>
-                <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">Facebook</span></a></li>
-              </ul> -->
+          <div class="section-body contact-wrapper">
+            <div class="contact"></div>
+              <div class="contact-list" style="text-align: center;">
+                  <a href="https://twitter.com/1moreset1morep" target="_blank"><img src="img/contact/logo.png" alt="" class="contact-img"  style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
+                  <div class="twitter-box">
+                    <a class="twitter-timeline" data-height="350" href="https://twitter.com/1moreset1morep?ref_src=twsrc%5Etfw">Tweets by ‎@1moreset1morep</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- <div class="section-body contact-wrapper">
+      <div class="contact">
+        <a href="https://twitter.com/1moreset1morep" target="_blank"><img src="img/contact/logo.png" alt="" class="contact-img"  style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
+        <div class="twitter-box">
+          <a class="twitter-timeline" data-height="315" href="https://twitter.com/1moreset1morep?ref_src=twsrc%5Etfw">Tweets by fumio681</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div> -->
+
+
+  <!-- <nav id="gnav">
+    <ul>
+      <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
+      <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
+      <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
+      <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
+    </ul>
+  </nav>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">Sasuga's portfolio</span>
+      </h1>
+    </header> -->
+
+
+
+      <footer class="footer appear up">
+        <div class="logo item">
+          <span class="logo__stay">Stay</span>
+          <span class="logo__world">World</span>
+        </div>
+        </nav>
+      </footer>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    <nav class="mobile-menu">
+      <div class="logo">
+        <span class="logo__stay">Stay</span>
+        <span class="logo__world">World</span>
+      </div>
+      <ul class="mobile-menu__main">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#Profile">
+            <span class="main-title">Profile</span>
+            <span class="sub-title">プロフィール</span>
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#skill">
+            <span class="main-title2">skill</span>
+            <span class="sub-title">技術</span>
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#works">
+            <span class="main-title3">works</span>
+            <span class="sub-title">お仕事</span>
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#contact">
+            <span class="main-title4">Contact</span>
+            <span class="sub-title">コンタクト方法</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
     <footer id="footer">
       <div class="inner">
         <nav class="footer-link">
@@ -374,7 +472,7 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
-        <p class="copyright">Copyright&copy;Naoto Suzuki. All Rights Reserved.</p>
+        <p class="copyright">Copyright&copy;Sasuga Yamaguchi. All Rights Reserved.</p>
       </div>
     </footer>
   </div>
@@ -444,8 +542,8 @@
       </div>
 
     </div>
-    
-    <div style="position: relative"><a href="https://www.codmon.com/mypage/" class="codmon-login-widget" target="_blank">Codmon</a>
+<div style="position: relative"><a href="https://www.codmon.com/mypage/" class="codmon-login-widget" target="_blank">Codmon</a>
+
 <script src="https://www.codmon.com/mypage/js/login-widget.js"></script>
 <span style="font-size: 11px;line-height: 1.2;position:absolute;top: 364px;left: 36px;">powerd by <a href="https://www.codmon.com/" target="_blank">保育園ICTシステム コドモン</a></span></div>
 
@@ -455,5 +553,7 @@
   <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 </html>
