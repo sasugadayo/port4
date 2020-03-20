@@ -19,7 +19,7 @@
   <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/favicon2.ico" />
+  <link rel="shortcut icon" href="img/sasuga.png" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
@@ -35,9 +35,39 @@
       <div class="mobile-menu__cover"></div>
       <div id="wrapper">
         <header id="header">
+          
           <h1 class="logo">
-            <span class="logo-title">Sasuga's portfolio</span>
+            <!-- <span class="top-img"> -->
+              <div class="animate-logo__container">
+                <img src="img/contact/logo.png" alt="" class="top-img">
+              </div>
+              <!-- <span class="logo-title">Sasuga's portfolio</span> -->
+              <div class="animate-title__container">
+                <div class="animate-title inview">
+                  <span class="char">S</span>
+                  <span class="char">a</span>
+                  <span class="char">s</span>
+                  <span class="char">u</span>
+                  <span class="char">g</span>
+                  <span class="char">a</span>
+                  <span class="char">'</span>
+                  <span class="char">s</span>
+                </div>
+                <div class="animate-title2 inview">
+                  <span class="char">p</span>
+                  <span class="char">o</span>
+                  <span class="char">r</span>
+                  <span class="char">t</span>
+                  <span class="char">f</span>
+                  <span class="char">o</span>
+                  <span class="char">l</span>
+                  <span class="char">i</span>
+                  <span class="char">o</span>
+                </div>
+            </div>
+            <!-- </span> -->
           </h1>
+
         </header>
       </div>
       <div class="nav-trigger"></div>
@@ -64,16 +94,17 @@
       <section class="section" id="Profile">
         <div class="inner">
           <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+            <h2 class="section-title"><img src="img/me.JPG" alt="" class="top-img"><span class="section-title-css">PROFILE</span></i></h2>
           </div>
           <div class="two-column-wrapper">
             <div class="two-column-image profile">
-              <video src="./mov/football.mp4" id="header_mov" autoplay loop  muted>
+              <video src="./mov/football.mp4" id="header_mov" autoplay  muted>
               </video>
             </div>
             <div class="two-column-desc">
               <p class="text">
-                ご訪問ありがとうございます！ 山口 流石（やまぐち さすが）と申します。<br><br>
+                ご訪問ありがとうございます！<br>
+                山口 流石（やまぐち さすが）と申します。<br><br>
                 【経歴】<br>
                 ・大分大学経済学部地域システム学科卒業<br>
                 ・株式会社コンベンションリンケージに入社し、J:comホルトホール大分にて指定管理者として従事。2019年12月に退社<br>
@@ -89,7 +120,7 @@
       <section class="section" id="skill">
         <div class="inner">
           <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-lightbulb fa-lg"><span class="section-title-css">SKILL</span></i></h2>
+            <h2 class="section-title"><i class="fas fa-laptop-code"></i><span class="section-title-css">SKILL</span></i></h2>
             <p class="section-desc"></p>
           </div>
           <div class="card-wrapper">
@@ -102,19 +133,15 @@
                   <thead>
                     <tr>
                       <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th scope="row">HTML5</th>
-                      <td>1年</td>
                       <td><span class="rating"><p class="rate rate4"></p></span></td>
                     </tr>
                     <tr>
                       <th scope="row">CSS3</th>
-                      <td>1年</td>
                       <td><span class="rating"><p class="rate rate4"></p></span></td>
                     </tr>
                   </tbody>
@@ -324,43 +351,120 @@
           </div>
           <div class="card-wrapper my-gallery">
 
-            <figure class="card">
-                <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                  <img class="card-image" src="img/works/thumb/portfolio.png" alt="" />
-                <!-- </a> -->
-                <figcaption class="card-caption">
-                  <p class="card-caption-title">ポートフォリオ</p>
-                  <p class="card-caption-info">自分自身のポートフォリオです。</p>
-                  <p class="card-caption-info">HTML/CSS/bootstrap4</p>
-                  <p class="card-caption-url"><a class="url-link" href="https://github.com/spineSuzukiNaoto/portfolio" target="_blank">git hub</a></p>
-                </figcaption>
-            </figure>
-    
-            <figure class="card">
-              <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                <img class="card-image" src="img/works/thumb/idea-share.png" alt="" />
-              <!-- </a> -->
-              <figcaption class="card-caption">
-                <p class="card-caption-title">アイデア共有サイト</p>
-                <p class="card-caption-info">2つの事柄を掛け合わせアイデアを見つけるものです。</p>
-                <p class="card-caption-info">投稿とコメント機能を作成しました。</p>
-                <p class="card-caption-info">html/css3/bootstarap/php/laravel</p>
-                <p class="card-caption-url"><a class="url-link" href="https://github.com/spineSuzukiNaoto/laravel-sites" target="_blank">git hub</a></p>
-              </figcaption>
-            </figure>
-            
-            <figure class="card">
-              <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                <img class="card-image" src="img/works/thumb/scraping.png" alt="" />
-              <!-- </a> -->
-              <figcaption class="card-caption">
-                <p class="card-caption-title">クローリング&スクレイピング</p>
-                <p class="card-caption-info">Webサイトから情報を抽出するスクリプトです。</p>
-                <p class="card-caption-info">PHP7.0</p>
-                <p class="card-caption-url"><a class="url-link" href="https://github.com/spineSuzukiNaoto/php-scraping" target="_blank">git hub</a></p>
-              </figcaption>
-            </figure>
+            <div class="section-body card-wrapper my-gallery">
+              <div class="card">
+                <video src="./mov/coffee1.mov" autoplay  muted></video>
+                <div class="card-caption card-space">
+                  <div class="card-caption-title">おすすめカフェ投稿アプリ</div>
+                  <div class="card-caption-info">
+                    おすすめのカフェを友人と共有するアプリです。<br>初めての個人アプリとして開発しました。<br>
+                    【使用技術】<br>
+                    Haml / Sass / Ruby on Rails / Javascript / MySQL /EC2 / Capistrano等 </div>
+                    <p class="card-caption-url"></p><a class="url-link" href="http://18.176.166.55/"  target="_blank">Link</a></p>
+                </div>
+              </div>
 
+              <div class="card">
+                <!-- <a href="http://18.178.119.194//" class="card-image hover-action-01" target="_blank"> -->
+                  <img class="lazyload fadein" src="img/furima.png" alt="" />
+                <!-- </a> -->
+                <div class="card-caption card-space">
+                  <div class="card-caption-title">FURIMA</div>
+                  <div class="card-caption-info">スクールでチーム開発したフリマアプリです。<br>
+                  スクラムマスターとして開発に携わりました。<br>
+                  【使用技術】<br>
+                  Haml / Sass / Ruby on Rails / Javascript / MySQL /EC2 / Capistrano等 </div>
+                  <p class="card-caption-url"><a class="url-link" href="http://18.177.242.24/" target="_blank">Link</a></p>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <!-- <a href="http://18.178.50.239/" class="card-image hover-action-01" target="_blank"> -->
+                  <img class="lazyload fadein" src="img/chat-space.png" data-src="img/works/work2.png" alt="" />
+                <div class="card-caption">
+                  <div class="card-caption-title">ChatSpace</div>
+                  <div class="card-caption-info">スクールで開発したチャットアプリです。<br>
+                  jQueryのAjax通信などを行いました。<br>
+                  【使用技術】<div>
+                  Haml / Sass / Ruby on Rails / jQuery / MySQL
+                  </div>
+                  <a class="url-link" href="https://github.com/sasugadayo/chat-space" target="_blank"> <div class="card-caption-url">github</div></a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <!-- <div class="popular__header">
+          <h2 class="main-title tween-animate-title">Popular Place</h2>
+          <p class="sub-title tween-animate-title">人気の観光地で宿泊先を見つけましょう</p>
+        </div> -->
+
+        
+        
+        
+        <section class="section" id="skill">
+          <div class="inner">
+            <div class="section-title-block">
+              <h2 class="section-title"><i class="fas fa-laptop-code"></i><span class="section-title-css">おまけ</span></i></h2>
+              <p class="section-desc"></p>
+            </div>
+        <div class="popular__inner appear up">
+          <div class="popular__container">
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/valentine.jpg" alt="" />
+              </div>
+              <div class="popular__title">パリ</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/halloween.jpg" alt="" />
+              </div>
+              <div class="popular__title">ニューヨーク</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/oyako-concert.jpg" alt="" />
+              </div>
+              <div class="popular__title">香港</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/reading.jpg" alt="" />
+              </div>
+              <div class="popular__title">香港</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/engeki.jpg" alt="" />
+              </div>
+              <div class="popular__title">香港</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/jingle2019.jpg" alt="" />
+              </div>
+              <div class="popular__title">香港</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/shinryoku.jpg" alt="" />
+              </div>
+              <div class="popular__title">香港</div>
+            </div>
+            <div class="popular__item item">
+              <div class="popular__img">
+                <img src="img/flyer/jingle2017.jpg" alt="" />
+              </div>
+              <div class="popular__title">香港</div>
+            </div>
+            <!-- <div class="popular__btn appear up">
+              <button class="btn cover-3d item">一覧から探す</button>
+            </div> -->
           </div>
         </div>
       </section>
@@ -370,112 +474,72 @@
           <div class="section-title-block">
             <h2 class="section-title"><i class="fas fa-envelope fa-lg"><span class="section-title-css">CONTACT</span></i></h2>
             <p class="section-desc">
-              お問い合わせはtwitterにてお願いいたします。
+              ⇩⇩お問い合わせはtwitterのDMにてお願いいたします。⇩⇩
             </p>
           </div>
           <div class="section-body contact-wrapper">
-            <!-- <div class="contact"></div> -->
               <div class="contact-list" style="text-align: center;">
-                  <a href="https://twitter.com/1moreset1morep" target="_blank"><img src="img/contact/logo.png" alt="" class="contact-img"  style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
+                  <a href="https://twitter.com/1moreset1morep" target="_blank"><img src="img/twitter.png" alt="" class="contact-img"  style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
                   <div class="twitter-box">
                     <a class="twitter-timeline" data-height="350" href="https://twitter.com/1moreset1morep?ref_src=twsrc%5Etfw">Tweets by ‎@1moreset1morep</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                   </div>
                 </div>
-            <!-- </div> -->
           </div>
         </div>
       </section>
     </main>
+  </div>
+</div>
+</div>
 
-    <!-- <div class="section-body contact-wrapper">
-      <div class="contact">
-        <a href="https://twitter.com/1moreset1morep" target="_blank"><img src="img/contact/logo.png" alt="" class="contact-img"  style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
-        <div class="twitter-box">
-          <a class="twitter-timeline" data-height="315" href="https://twitter.com/1moreset1morep?ref_src=twsrc%5Etfw">Tweets by fumio681</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-      </div>
-    </div> -->
-
-
-  <!-- <nav id="gnav">
-    <ul>
-      <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
-      <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
-      <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
-      <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
-    </ul>
-  </nav>
-  <div id="wrapper">
-    <header id="header">
-      <h1 class="logo">
-        <span class="logo-title">Sasuga's portfolio</span>
-      </h1>
-    </header> -->
-
-
-
-      <footer class="footer appear up">
-        <div class="logo item">
-          <span class="logo__stay">Stay</span>
-          <span class="logo__world">World</span>
-        </div>
-        </nav>
-      </footer>
-        </div>
-      </div>
-
-
-
-
-    </div>
+<!-- サイドメニュー -->
     <nav class="mobile-menu">
       <div class="logo">
-        <span class="logo__stay">Stay</span>
-        <span class="logo__world">World</span>
+        <span class="stay">Thank you</span>
       </div>
       <ul class="mobile-menu__main">
         <li class="mobile-menu__item">
           <a class="mobile-menu__link" href="#Profile">
-            <span class="main-title">Profile</span>
+            <span class="main-title">PROFILE</span>
             <span class="sub-title">プロフィール</span>
           </a>
         </li>
         <li class="mobile-menu__item">
           <a class="mobile-menu__link" href="#skill">
-            <span class="main-title2">skill</span>
+            <span class="main-title2">SKILL</span>
             <span class="sub-title">技術</span>
           </a>
         </li>
         <li class="mobile-menu__item">
           <a class="mobile-menu__link" href="#works">
-            <span class="main-title3">works</span>
+            <span class="main-title3">WORKS</span>
             <span class="sub-title">お仕事</span>
           </a>
         </li>
         <li class="mobile-menu__item">
           <a class="mobile-menu__link" href="#contact">
-            <span class="main-title4">Contact</span>
+            <span class="main-title4">CONTACT</span>
             <span class="sub-title">コンタクト方法</span>
           </a>
         </li>
       </ul>
     </nav>
-  </div>
 
-    <footer id="footer">
-      <div class="inner">
-        <nav class="footer-link">
-          <ul>
-            <li><a href="#Profile">Profile</a></li>
-            <li><a href="#skill">SKILL</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </nav>
-        <p class="copyright">Copyright&copy;Sasuga Yamaguchi. All Rights Reserved.</p>
-      </div>
-    </footer>
+<!-- フッター -->
+<footer id="footer">
+  <div class="inner">
+    <nav class="footer-link">
+      <ul>
+        <li><a href="#Profile">PROFILE</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <p class="copyright">Copyright&copy;Sasuga Yamaguchi. All Rights Reserved.</p>
   </div>
+</footer>
+</div>
 
 
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
@@ -542,12 +606,10 @@
       </div>
 
     </div>
-<div style="position: relative"><a href="https://www.codmon.com/mypage/" class="codmon-login-widget" target="_blank">Codmon</a>
 
-<script src="https://www.codmon.com/mypage/js/login-widget.js"></script>
-<span style="font-size: 11px;line-height: 1.2;position:absolute;top: 364px;left: 36px;">powerd by <a href="https://www.codmon.com/" target="_blank">保育園ICTシステム コドモン</a></span></div>
 
-  </div>
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
