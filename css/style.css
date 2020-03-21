@@ -1736,6 +1736,8 @@ i {
   justify-content: space-between;
   margin-bottom: 50px;
   padding:1%;
+  /* background-color: rgb(203, 255, 201); */
+  border-radius: 10px;
 }
 
 #skill .skill-icon {
