@@ -1,13 +1,7 @@
 /* CSS Document */
 @charset "UTF-8";
 
-
-
-
 /* ローディング */
-
-
-
 .pace {
   z-index: 2000;
   position: fixed;
@@ -39,7 +33,6 @@
   display: none;
 }
 
-
 .pace-progress-inner {
   overflow: hidden;
   position: relative;
@@ -47,21 +40,6 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  /* -webkit-animation-name: flower-loader;
-          animation-name: flower-loader;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; */
-
   background: #e96;
   border-radius: 100%;
   -moz-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
@@ -76,60 +54,6 @@
   transform-origin: 50% 50%;
 }
 
-
-/* 
-@-webkit-keyframes sk-rotateplane {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-  }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-  }
-}
-
-@keyframes sk-rotateplane {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-  }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-  }
-} */
-
-
-/* 
-.pace-progres-inner {
-  overflow: hidden;
-  position: relative;
-  text-indent: -9999px;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: #e96;
-  border-radius: 100%;
-  -moz-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
-  -webkit-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
-  box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
-  -moz-animation: flower-loader 5s infinite ease-in-out;
-  -webkit-animation: flower-loader 5s infinite ease-in-out;
-  animation: flower-loader 5s infinite ease-in-out;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-} */
 @-moz-keyframes flower-loader {
   0% {
     -moz-transform: rotate(0deg);
@@ -361,8 +285,8 @@ body {
           animation-duration: 0.5s;
   -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
           animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-direction: normal;
@@ -371,49 +295,49 @@ body {
           animation-fill-mode: both;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(1) {
-  -webkit-animation-delay: 0.08s;
-          animation-delay: 0.08s;
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(1) {
+  -webkit-animation-delay: 0.10s;
+          animation-delay: 0.10s;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(2) {
-  -webkit-animation-delay: 0.16s;
-          animation-delay: 0.16s;
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(2) {
+  -webkit-animation-delay: 0.20s;
+          animation-delay: 0.20s;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(3) {
-  -webkit-animation-delay: 0.24s;
-          animation-delay: 0.24s;
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(3) {
+  -webkit-animation-delay: 0.30s;
+          animation-delay: 0.30s;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(4) {
-  -webkit-animation-delay: 0.32s;
-          animation-delay: 0.32s;
-}
-
-.animate-title.inview,.animate-title2.inview .char:nth-child(5) {
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(4) {
   -webkit-animation-delay: 0.40s;
           animation-delay: 0.40s;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(6) {
-  -webkit-animation-delay: 0.48s;
-          animation-delay: 0.48s;
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(5) {
+  -webkit-animation-delay: 0.50s;
+          animation-delay: 0.50s;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(7) {
-  -webkit-animation-delay: 0.56s;
-          animation-delay: 0.56s;
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(6) {
+  -webkit-animation-delay: 0.60s;
+          animation-delay: 0.60s;
 }
 
-.animate-title.inview,.animate-title2.inview .char:nth-child(8) {
-  -webkit-animation-delay: 0.64s;
-          animation-delay: 0.64s;
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(7) {
+  -webkit-animation-delay: 0.70s;
+          animation-delay: 0.70s;
+}
+
+.animate-title.inview .char:nth-child(1),.animate-title2.inview .char:nth-child(8) {
+  -webkit-animation-delay: 0.80s;
+          animation-delay: 0.80s;
 }
 
 .animate-title2.inview .char:nth-child(9) {
-  -webkit-animation-delay: 0.72s;
-          animation-delay: 0.72s;
+  -webkit-animation-delay: 0.90s;
+          animation-delay: 0.90s;
 }
 
 
@@ -1671,8 +1595,10 @@ WORKS
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     object-fit: cover; /* ADD */
-    -webkit-animation: roll-in-left 2.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-    animation: roll-in-left 2.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    -webkit-animation: roll-in-left 2.0s;
+    animation: roll-in-left 2.0s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
 }
 
 @-webkit-keyframes roll-in-left {
