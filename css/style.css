@@ -1,17 +1,14 @@
 /* CSS Document */
 @charset "UTF-8";
 
-/* #global-container {
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s;
-} */
+
 
 
 /* ローディング */
 .pace-running #global-container {
   /* opacity: 0; */
-  /* display: none; */
-  visibility: hidden;
+  display: none;
+  /* visibility: hidden; */
 }
 
 .pace {
@@ -96,7 +93,10 @@
   }
 }
 
-
+#global-container {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
 
 /*# sourceMappingURL=loader.css.map */
 
