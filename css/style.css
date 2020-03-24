@@ -90,8 +90,9 @@
   }
 }
 
-#global-container {
+.pace-running #global-container {
   opacity: 0;
+  display: none;
 }
 
 /* #global-container {
