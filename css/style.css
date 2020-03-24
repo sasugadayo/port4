@@ -1,15 +1,15 @@
 /* CSS Document */
 @charset "UTF-8";
 
-#global-container {
+/* #global-container {
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
-}
+} */
 
 
 /* ローディング */
 .pace-running #global-container {
-  opacity: 0;
+  /* opacity: 0; */
   display: none;
 }
 
