@@ -7,10 +7,10 @@
 }
 
 
-ローディング
+/* ローディング */
 .pace-running #global-container {
   opacity: 0;
-  display: none;
+  visibility: hidden;
 }
 
 .pace {
