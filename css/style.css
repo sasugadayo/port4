@@ -10,7 +10,8 @@
 /* ローディング */
 .pace-running #global-container {
   /* opacity: 0; */
-  display: none;
+  /* display: none; */
+  visibility: hidden;
 }
 
 .pace {
