@@ -5,10 +5,14 @@
 
 
 /* ローディング */
-.pace-running #global-container {
-  /* opacity: 0; */
-  display: none;
+.pace-done #global-container {
+  /* display: none; */
   /* visibility: hidden; */
+  transition: opacity 1s;
+  opacity: 1;
+}
+#global-container {
+  opacity: 0;
 }
 
 .pace {
