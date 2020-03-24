@@ -39,13 +39,16 @@
   display: none;
 }
 
+
 .pace-progress-inner {
-  width: 40px;
-  height: 40px;
-  background-color: #904669;
-  margin: 0 auto;
-  -webkit-animation-name: sk-rotateplane;
-          animation-name: sk-rotateplane;
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  /* -webkit-animation-name: flower-loader;
+          animation-name: flower-loader;
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -57,9 +60,24 @@
   -webkit-animation-direction: normal;
           animation-direction: normal;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+          animation-fill-mode: forwards; */
+
+  background: #e96;
+  border-radius: 100%;
+  -moz-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  -webkit-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  -moz-animation: flower-loader 5s infinite ease-in-out;
+  -webkit-animation: flower-loader 5s infinite ease-in-out;
+  animation: flower-loader 5s infinite ease-in-out;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
 }
 
+
+/* 
 @-webkit-keyframes sk-rotateplane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
@@ -88,7 +106,80 @@
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
             transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
   }
+} */
+
+
+/* 
+.pace-progres-inner {
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #e96;
+  border-radius: 100%;
+  -moz-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  -webkit-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  -moz-animation: flower-loader 5s infinite ease-in-out;
+  -webkit-animation: flower-loader 5s infinite ease-in-out;
+  animation: flower-loader 5s infinite ease-in-out;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+} */
+@-moz-keyframes flower-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -moz-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+    box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  }
+  50% {
+    -moz-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    -moz-box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+    box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+  }
 }
+@-webkit-keyframes flower-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+    box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  }
+  50% {
+    -webkit-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    -webkit-box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+    box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+  }
+}
+@keyframes flower-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -moz-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+    -webkit-box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+    box-shadow: white 0 0 15px 0, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px;
+  }
+  50% {
+    -moz-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+    -moz-box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+    -webkit-box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+    box-shadow: white 0 0 15px 0, #fd8 12px 12px 0 4px, #fd8 -12px 12px 0 4px, #fd8 -12px -12px 0 4px, #fd8 12px -12px 0 4px;
+  }
+}
+
+
 
 .pace-running #global-container {
   opacity: 0;
