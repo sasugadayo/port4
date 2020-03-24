@@ -10,7 +10,7 @@
 ローディング
 .pace-running #global-container {
   opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 
 .pace {
