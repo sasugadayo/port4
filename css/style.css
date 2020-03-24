@@ -5,15 +5,8 @@
 
 
 /* ローディング */
-.pace-done #global-container {
-  /* display: none; */
-  /* visibility: hidden; */
-  transition: opacity 1s;
-  opacity: 1;
-}
-#global-container {
-  opacity: 0;
-}
+
+
 
 .pace {
   z-index: 2000;
@@ -98,8 +91,18 @@
 }
 
 #global-container {
+  opacity: 0;
+}
+
+/* #global-container {
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
+} */
+.pace-done #global-container {
+  /* display: none; */
+  /* visibility: hidden; */
+  transition: opacity 1s;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=loader.css.map */
